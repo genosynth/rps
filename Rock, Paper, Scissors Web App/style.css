@@ -1,0 +1,62 @@
+img {
+
+    
+    
+    float: left;
+       
+    
+}
+    
+img:hover {
+        
+        box-shadow: 0px 10px 50px rgba(37, 58, 233, 1);
+        background-color: blue ;
+        }
+
+
+h1 {
+
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 50px;
+    border: black solid 5px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+h2 {
+
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+.container {
+  
+        
+    padding-left: 220px;
+    padding-right: 170px;
+    border: solid black 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+          
+   
+}
+
+
+.scores {
+    font-family: 'Fredoka Ona', cursive;
+    text-align: center;
+    padding-right: 50px;
+    font-size: 50px;
+   
+
+}

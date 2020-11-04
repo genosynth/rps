@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Rock - Paper - Scissors</title>
+</head>
+<body>
+    <h1>ROCK - PAPER - SCISSORS</h1>
+    <h2>Pick Your Choice</h2>
+    <div class="container" id="flex-box-rps-div">
+    <div class="floating-box"><img src="rock.png" id="rock" height="500" width="500px" alt="rock image" onclick="rpsGame(this)"></div>
+    <div class="floating-box">><img src="paper.png" id="paper" height="500" alt="paper image" onclick="rpsGame(this)"></div>
+    <div class="floating-box"><img src="scissors.png" id="scissors" height="500" alt="scissors image" onclick="rpsGame(this)"></div>
+    </div>
+    <div class="scores" id="score-box">
+        <div>YOUR SCORE</div>
+        <div>AI SCORE</div>
+        <div><button id="button">AGAIN</button></div>
+    </div>
+    
+</body>
+
+<script src="javascript.js"></script>
+</html>
